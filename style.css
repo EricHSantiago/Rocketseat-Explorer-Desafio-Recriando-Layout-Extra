@@ -1,0 +1,108 @@
+/*** Configuração Universal ***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*** Corpo da Página ***/
+body {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*** Conteudo Principal ***/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px auto;
+
+  width: 626px;
+}
+
+main p {
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+
+  width: 540px;
+
+  color: #828282;
+}
+
+main p + p {
+  padding-top: 32px;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+
+  color: #3F3D56;
+
+  margin: 32px 0 16px;
+}
+
+h1 span {
+  color: #EE24FF;
+  font-weight: 700;
+}
+
+p strong {
+  color: #3F3D56;
+}
+
+p span {
+  font-weight: 700;
+}
+
+
+/*** Estilzação Footer ***/
+.linha {
+  width: 391px;
+  height: 0px;
+
+  margin: 0 auto 16px;
+
+  border: 1px solid #ECEFF2;
+}
+
+nav {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 42px;
+
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 147.68%;
+  text-align: center;
+
+  color: #3F3D56;
+}
+
+#ondas {
+  position: fixed;
+  min-width: 100%;
+  min-height: 104px;
+
+  bottom: 0;
+}
